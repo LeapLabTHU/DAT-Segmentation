@@ -27,7 +27,7 @@ model = dict(
         use_conv_patches=True,
         ksizes=[9, 7, 5, 3],
         nat_ksizes=[7, 7, 7, 7],
-        drop_path_rate=0.3,
+        drop_path_rate=0.4,
         init_cfg=dict(type='Pretrained', checkpoint=pretrained)
     ),
     neck=dict(in_channels=[64, 128, 256, 512]),
