@@ -1,6 +1,6 @@
 # Vision Transformer with Deformable Attention
 
-This repository contains the code of semantic segmentation for the paper Vision Transformer with Deformable Attention \[[arXiv](https://arxiv.org/abs/2201.00520)\], and DAT++: Spatially Dynamic Vision Transformerwith Deformable Attention (extended version)\[[OneDrive](https://1drv.ms/b/s!ApI0vb6wPqmtgrl6Pqn0wybDrpaxvg?e=4yVs7Z)]. 
+This repository contains the code of semantic segmentation for the paper Vision Transformer with Deformable Attention \[[arXiv](https://arxiv.org/abs/2201.00520)\], and DAT++: Spatially Dynamic Vision Transformerwith Deformable Attention (extended version)\[[arXiv](https://arxiv.org/abs/2309.01430)]. 
 
 This code is based on [mmsegmentation](https://github.com/open-mmlab/mmsegmentation) and [Swin Segmentation](https://github.com/SwinTransformer/Swin-Transformer-Semantic-Segmentation). To get started, you can follow the instructions in [Swin Transformer](https://github.com/SwinTransformer/Swin-Transformer-Semantic-Segmentation/blob/main/README.md).
 
@@ -75,6 +75,13 @@ High-Flyer AI Fundamental Research Co.,Ltd](https://www.high-flyer.cn/).
 If you find our work is useful in your research, please consider citing:
 
 ```
+@article{xia2023dat,
+    title={DAT++: Spatially Dynamic Vision Transformer with Deformable Attention}, 
+    author={Zhuofan Xia and Xuran Pan and Shiji Song and Li Erran Li and Gao Huang},
+    year={2023},
+    journal={arXiv preprint arXiv:2309.01430},
+}
+
 @InProceedings{Xia_2022_CVPR,
     author    = {Xia, Zhuofan and Pan, Xuran and Song, Shiji and Li, Li Erran and Huang, Gao},
     title     = {Vision Transformer With Deformable Attention},
